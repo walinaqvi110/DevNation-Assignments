@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 10vh;
+    width: 100%;
+}
+
+.logo{
+    width: 70%;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    width: 30%;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+
+}
+
+.menu ul li{
+    margin: 10px;
+
+}
+
+section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+
+.main-content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: coral;
+}
+
+.side-bar{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: crimson;
+}
+
+.side-bar ul{
+    list-style: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkcyan;
+    align-items: center;
+}
+
+@media screen and (max-width:1182px) {
+    .logo{
+        width: 70%;
+    }
+    .menu{
+        width: 30%;
+    }
+    
+}
+
+@media screen and (max-width:586px) {
+    .logo{
+        /* width: 70%; */
+        font-size: 1.4rem;
+    }
+    .menu{
+        width: 30%;
+    }  
+}
+
+@media screen and (max-width:375px) {
+    .logo{
+        font-size: 1rem;
+    }
+    .menu{
+        width: 30%;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    .section{
+        height: 324px;
+        display: block;
+    }
+    
+    .main-content{
+        width: 100%;
+    }
+
+    .side-bar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
